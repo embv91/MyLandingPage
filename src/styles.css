@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #003D19;
+    line-height: 1.6;
+    background-color: #C5E89B;
+}
+
+header {
+    background-color: #27576B;
+    color: #C5E89B;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #6C9B34;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    color: #96C161;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 61, 25, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: #0F5C2E;
+}
+
+.job, #skills ul, #education ul {
+    margin: 1em 0;
+}
+
+.job h3 {
+    font-size: 1.4em;
+    color: #297A4A;
+}
+
+.job p {
+    margin: 0.5em 0;
+    color: #27576B;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #297A4A;
+    color: #FFF;
+}
